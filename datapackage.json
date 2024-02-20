@@ -1,0 +1,185 @@
+{
+  "resources": [
+    {
+      "path": "data/dados_tuberculose.csv",
+      "name": "dados_tuberculose",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_AGRAVO",
+            "type": "string"
+          },
+          {
+            "name": "DT_NOTIFIC",
+            "type": "string"
+          },
+          {
+            "name": "NU_ANO",
+            "type": "integer"
+          },
+          {
+            "name": "ID_MUNICIP",
+            "type": "string"
+          },
+          {
+            "name": "ID_REGIONA",
+            "type": "string"
+          },
+          {
+            "name": "ID_UNIDADE",
+            "type": "integer"
+          },
+          {
+            "name": "DT_DIAG",
+            "type": "string"
+          },
+          {
+            "name": "NU_IDADE_N",
+            "type": "integer"
+          },
+          {
+            "name": "CS_SEXO",
+            "type": "string"
+          },
+          {
+            "name": "CS_GESTANT",
+            "type": "string"
+          },
+          {
+            "name": "CS_RACA",
+            "type": "string"
+          },
+          {
+            "name": "CS_ESCOL_N",
+            "type": "string"
+          },
+          {
+            "name": "ID_MN_RESI",
+            "type": "string"
+          },
+          {
+            "name": "ID_RG_RESI",
+            "type": "string"
+          },
+          {
+            "name": "CS_ZONA",
+            "type": "string"
+          },
+          {
+            "name": "AGRAVAIDS",
+            "type": "string"
+          },
+          {
+            "name": "AGRAVALCOO",
+            "type": "string"
+          },
+          {
+            "name": "AGRAVDIABE",
+            "type": "string"
+          },
+          {
+            "name": "AGRAVDOENC",
+            "type": "string"
+          },
+          {
+            "name": "AGRAVOUTRA",
+            "type": "string"
+          },
+          {
+            "name": "AGRAVDROGA",
+            "type": "string"
+          },
+          {
+            "name": "AGRAVTABAC",
+            "type": "string"
+          },
+          {
+            "name": "TRATAMENTO",
+            "type": "string"
+          },
+          {
+            "name": "CULTURA_ES",
+            "type": "string"
+          },
+          {
+            "name": "HIV",
+            "type": "string"
+          },
+          {
+            "name": "HISTOPATOL",
+            "type": "string"
+          },
+          {
+            "name": "DT_INIC_TR",
+            "type": "string"
+          },
+          {
+            "name": "BACILOSC_1",
+            "type": "string"
+          },
+          {
+            "name": "BACILOSC_2",
+            "type": "string"
+          },
+          {
+            "name": "BACILOSC_3",
+            "type": "string"
+          },
+          {
+            "name": "BACILOSC_4",
+            "type": "string"
+          },
+          {
+            "name": "BACILOSC_5",
+            "type": "string"
+          },
+          {
+            "name": "BACILOSC_6",
+            "type": "string"
+          },
+          {
+            "name": "TRATSUP_AT",
+            "type": "string"
+          },
+          {
+            "name": "SITUA_ENCE",
+            "type": "string"
+          },
+          {
+            "name": "DT_ENCERRA",
+            "type": "string"
+          },
+          {
+            "name": "POP_LIBER",
+            "type": "string"
+          },
+          {
+            "name": "TEST_MOLEC",
+            "type": "string"
+          },
+          {
+            "name": "TEST_SENSI",
+            "type": "string"
+          },
+          {
+            "name": "RAIOX_TORA",
+            "type": "string"
+          },
+          {
+            "name": "FORMA",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package"
+}
